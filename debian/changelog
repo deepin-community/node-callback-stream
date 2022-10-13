@@ -1,0 +1,38 @@
+node-callback-stream (1.1.0-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+  * Trim trailing whitespace.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto test & install
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+  * Update upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 27 Apr 2020 21:31:25 +0200
+
+node-callback-stream (1.1.0-2) unstable; urgency=low
+
+  * Fix CI test: add missing dependencies.
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Fri, 21 Jul 2017 02:39:45 +0800
+
+node-callback-stream (1.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #866554)
+
+ -- Ying-Chun Liu (PaulLiu) <paulliu@debian.org>  Fri, 30 Jun 2017 02:40:27 +0000
